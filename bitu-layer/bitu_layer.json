@@ -1,0 +1,18 @@
+{
+    "file_format_version": "1.2.0",
+    "layer": {
+        "name": "VK_LAYER_BITU_1",
+        "type": "GLOBAL",
+        "api_version": "1.3.0",
+        "implementation_version": "1",
+        "description": "Bitu frame pacing layer",
+        "disable_environment": {
+            "DISABLE_BITU_LAYER": "1"
+        },
+        "library_path": "../target/release/libbitu_layer.so",
+        "functions": {
+            "vkGetInstanceProcAddr": "vkGetInstanceProcAddr",
+            "vkGetDeviceProcAddr": "vkGetDeviceProcAddr"
+        }
+    }
+}

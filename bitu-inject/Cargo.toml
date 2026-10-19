@@ -1,0 +1,13 @@
+[package]
+name = "bitu-inject"
+version = "1.0.0"
+edition = "2021"
+description = "ptrace + dlopen injector for live attach to running games (Bitu)."
+repository = "https://github.com/usr-kmasx/bitu"
+
+[[bin]]
+name = "bitu-inject"
+path = "src/main.rs"
+
+[dependencies]
+libc = "0.2"

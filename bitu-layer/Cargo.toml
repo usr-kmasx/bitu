@@ -1,0 +1,13 @@
+[package]
+name = "bitu-layer"
+version = "1.0.0"
+edition = "2021"
+description = "Bitu frame-time pacing layer: Vulkan implicit layer + OpenGL hooks, injected into the game."
+repository = "https://github.com/usr-kmasx/bitu"
+
+[lib]
+name = "bitu_layer"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
